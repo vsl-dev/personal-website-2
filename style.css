@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url('https://cdn.vsldev.tk/images/xM4iuMbBbQrmJIiyiKkQ.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 65%;
+	height: auto!important;
+	margin-top: 7%;
+/* 	box-shadow: 11px 11px rgb(84, 84, 84, 45%); */
+}
+
+.container_head {
+	padding: 10px 0 10px 10px;
+	color: black;
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.container_head img {
+	border-radius: 50%;
+	border: 1.5px solid gray;
+}
+
+.container_head h3 {
+	padding: 10px 60% 10px 10px;
+}
+
+.container_body {
+	padding: 40px 0 35px 175px;
+	color: black;
+	display: flex;
+	position: relative;
+}
+
+.container_body img {
+	border-radius: 50%;
+	border: 11px solid white;
+	box-shadow: 0 0 5px 0.001px rgb(82, 82, 82, 1);
+}
+
+.container_body_text h1 {
+	padding: 20px 190px 10px 0;
+	font-size: 25px;
+}
+
+.container_body_text p {
+	color: #cccccc;
+	font-size: 17px;
+	word-break: break-all;
+	padding: 5px 250px 5px 60px;
+}
+
+.container_body_text button {
+	color: black;
+	border: 3px solid #999999;
+	background-color: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 2em;
+	transition: 1s;
+	box-shadow: 2.5px 2.5px 1px 0.1px rgb(82, 82, 82, 1);
+}
+
+.container_body_text button:hover {
+	border: 3px solid #0085c7;
+	transition: 1s;
+}
+
+.container_footer {
+	padding: 10px 0 20px 0;
+}
+
+.container_footer_links a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 0 10px 0;
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 600px), (max-width: 700px), (max-width: 800px) {
+.container {
+	width: 90%;
+	padding: 10px 0 10px 10px;
+}
+
+.container_head h3 {
+	padding: 10px 40% 10px 10px;
+}
+
+.container_body {
+	padding: 40px 0 35px 0;
+	color: black;
+	display: block;
+	position: none;
+}
+
+
+.container_body img {
+	border-radius: 50%;
+	border: 11px solid white;
+	box-shadow: 0 0 5px 0.001px rgb(82, 82, 82, 1);
+}
+
+.container_body_text h1 {
+	padding: 20px 0 10px 0;
+	font-size: 25px;
+}
+
+.container_body_text p {
+	color: #cccccc;
+	font-size: 17px;
+	word-break: break-all;
+	padding: 5px 20px 10px 0;
+}
+
+.container_body_text button {
+	padding: 10px;
+	transition: 1s;
+}
+
+}
